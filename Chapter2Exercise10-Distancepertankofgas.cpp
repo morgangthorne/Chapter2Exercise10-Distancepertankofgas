@@ -1,20 +1,27 @@
-// Chapter2Exercise10-Distancepertankofgas.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+Program Name:Chapter2Exercise10-Distancepertankofgas.cpp
+Programmer: Morgan Thorne
+Date: February 2025
+Requirements:
+A car holds 15 gallons of gasoline and can travel 375 miles before refueling.
+Write a program that calculates the number of miles per gallon the car gets.
+Display the result on the screen.
+*/
+
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int Gallons = 15;
+    int MilesDriven = 375;
+    int MPG = MilesDriven / Gallons;
+
+    cout << "Your car has " << Gallons << " gallons of petrol and can travel " << MilesDriven << " miles." << endl;
+    cout << "You can drive " << MPG << " miles per gallon of petrol.";
+    
+    
+    
+    
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
